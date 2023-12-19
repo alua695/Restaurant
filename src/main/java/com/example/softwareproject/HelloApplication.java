@@ -17,7 +17,7 @@ public class HelloApplication extends Application {
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("Borde.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 1000, 700);
         stage.setResizable(true);
-        stage.setTitle("Hello!");
+        stage.setTitle("Restaurant");
         stage.setScene(scene);
         stage.show();
     }
