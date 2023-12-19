@@ -6,7 +6,7 @@ import javafx.scene.control.Button;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
 
-public class ddd {
+public class ddd { //MainController
 
     @FXML
     private Button aboutUsButton;

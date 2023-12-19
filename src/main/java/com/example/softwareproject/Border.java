@@ -2,6 +2,7 @@ package com.example.softwareproject;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
@@ -13,11 +14,13 @@ import javafx.scene.layout.*;
 import javafx.scene.paint.Color;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
-
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.net.URL;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.ResourceBundle;
 
-public class Border {
+public class Border implements Initializable { // MenuController
 
     @FXML
     private Button bolognese;
@@ -63,6 +66,7 @@ public class Border {
 
     @FXML
     private VBox vbox;
+    private Map<String, Integer> dishQuantities = new HashMap<>();
 
     private int total = 0;
     private int amountOfCalamari = 0;
@@ -93,17 +97,38 @@ public class Border {
 
     @FXML
     void bolognese3400(ActionEvent event) {
-//       HBox hbox = new HBox();
-//       ImageView image = new ImageView();
-//       Image img = new Image();
-//       image.setImage(img);
-//       hbox.getChildren().add(image);
+        updateTotal("Bolognese", 3400);
+        showSuccessDialog("Added Bolognese to cart");
+    }
 
+    private void showSuccessDialog(String message) {
+        System.out.println("Successfully added");
+    }
+
+    private void updateAmount(String bolognese) {
+
+    }
+
+    private void updateTotal(String dishName, int price) {
+        updateAmount(dishName);
+
+        HBox hbox = createDishBox(dishName, price);
+        vbox.getChildren().add(hbox);
+    }
+    private HBox createDishBox(String dishName, int price) {
+        HBox hbox = new HBox();
+        ImageView image = new ImageView(new Image(getClass().getResourceAsStream(dishName.toLowerCase() + ".jpg")));
+        image.setFitWidth(100);
+        image.setFitHeight(100);
+        Label name = new Label(dishName);
+        hbox.getChildren().addAll(image, name);
+        return hbox;
     }
 
     @FXML
     void brio3000(ActionEvent event) {
-
+        updateTotal("Bolognese", 3400);
+        showSuccessDialog("Added Bolognese to cart");
     }
 
     @FXML
@@ -272,5 +297,8 @@ public class Border {
         });
     }
 
-
+    @Override
+    public void initialize(URL url, ResourceBundle resourceBundle) {
+        System.out.println("Initialized");
+    }
 }

@@ -2,16 +2,14 @@ package com.example.softwareproject;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.Group;
 import javafx.scene.control.Label;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
-import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.scene.text.Text;
 
-public class sample {
+public class sample { //ShoppingCartController
     @FXML
     private VBox vBox;
 
@@ -33,13 +31,8 @@ public class sample {
     private int amountN  = 0;
     public Image img = new Image("C:\\Users\\ПК\\IdeaProjects\\SoftwareProject\\src\\main\\resources\\com\\example\\softwareproject\\666.png");
 
-
-
-
     @FXML
     private ImageView image = new ImageView();
-
-
     @FXML
     void add1000(ActionEvent event) {
         image.setImage(img);
@@ -53,10 +46,7 @@ public class sample {
          totalN+=1000;
         total.setText("Total is:" + totalN);
         amount.setText(String.valueOf(amountN));
-
-
     }
-
     @FXML
     void add1200text(ActionEvent event) {
         image.setImage(img);
@@ -77,8 +67,6 @@ public class sample {
         total.setText("Total is:" + totalN);
 
     }
-
-
     @FXML
     void minus(ActionEvent event) {
         totalN-=1000;
@@ -100,7 +88,5 @@ public class sample {
         amountN++;
         total.setText("Total is:" + totalN);
         image.setVisible(false);
-
     }
-
 }
