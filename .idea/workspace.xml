@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="855ac486-b9b0-4599-920c-b1a3cc3de645" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/softwareproject/Border.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/softwareproject/Flavour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/softwareproject/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/softwareproject/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/softwareproject/ddd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/softwareproject/sample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/softwareproject/1200x686 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/softwareproject/1200x686 (2).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/softwareproject/1200x686 (3).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/softwareproject/1200x686.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/softwareproject/1200x792 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/softwareproject/1200x792 (2).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/softwareproject/1200x792 (3).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/softwareproject/1200x792.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/softwareproject/2160Antons_0922_LizClayman_00118.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/softwareproject/220926134954-09-body-chinese-foods-kung-pao.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/softwareproject/220926135112-01-body-chinese-foods-ziao-long-bao.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/softwareproject/220926135142-05-bodychinese-foods-steamed-fish-head.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/softwareproject/220926135423-07-body-chinese-foods-vermicelli-duck-blood.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/softwareproject/220926135452-08-body-chinese-foods-mapo-tofu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/softwareproject/33407Antons_0922_LizClayman_00201.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/softwareproject/40945Antons_West_Village_Wine_Service.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/softwareproject/4337518.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/softwareproject/45955Antons_0922_LizClayman_00098.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/softwareproject/6114364d2bca43ca80383e9e4371dce2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/softwareproject/6202325.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/softwareproject/666.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/softwareproject/7506482.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/softwareproject/7789Antons_0922_LizClayman_00011.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/softwareproject/78910antons-11-5-196103.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/softwareproject/7917408.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/softwareproject/86765Antons_0922_LizClayman_00009.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/softwareproject/9385958.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/softwareproject/Al-Farabi 77.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/softwareproject/Borde.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/softwareproject/Chernovik.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/softwareproject/Chinese.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/softwareproject/Chop-Suey.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/softwareproject/Drinks.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/softwareproject/Flavour.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/softwareproject/ItalianFood.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/softwareproject/ItalianPin.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/softwareproject/Kung-Pao-Chicken.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/softwareproject/PASTA BRIO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/softwareproject/Pasta1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/softwareproject/Press.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/softwareproject/Scroll.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/softwareproject/Top-10-Traditional-Foods-in-Italy(1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/softwareproject/ca3e5b552b034ceeac9afe335d972594.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/softwareproject/ddd.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/softwareproject/fff.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/softwareproject/food-4k-1pf6px6ryqfjtnyr(1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/softwareproject/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/softwareproject/item-800000000909906721_1680274046.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/softwareproject/item-800000000909934274_1680275583.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/softwareproject/item-800000000909934562_1680276315.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/softwareproject/item-800000000909934570_1685133582.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/softwareproject/item-800000000909934574_1680276422.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/softwareproject/item-800000000911965726_1680282277.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/softwareproject/item-800000006186777559_1698688804.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/softwareproject/sample.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/softwareproject/Без названия (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/softwareproject/Без названия (2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/softwareproject/Без названия.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/softwareproject/Снимок экрана 2023-12-10 111453.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/softwareproject/Снимок экрана 2023-12-10 111741.png" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2ZGb1fVJriiB3ojAXSPvsFYCa5i" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ПК\IdeaProjects\SoftwareProject\src\main\resources\com\example\softwareproject" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.softwareproject.HelloApplication" />
+      <module name="SoftwareProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.softwareproject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HelloApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="855ac486-b9b0-4599-920c-b1a3cc3de645" name="Changes" comment="" />
+      <created>1702051150248</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702051150248</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

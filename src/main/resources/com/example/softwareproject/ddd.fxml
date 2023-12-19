@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" styleClass="@Style.css" stylesheets="Style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.softwareproject.ddd">
+   <children>
+      <ScrollPane layoutX="190.0" prefHeight="700.0" prefWidth="820.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1200.0" prefWidth="900.0">
+               <children>
+                  <ImageView fitHeight="255.0" fitWidth="366.0" layoutX="84.0" layoutY="5.0">
+                     <image>
+                        <Image url="@4337518.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="419.0" fitWidth="370.0" layoutX="80.0" layoutY="531.0">
+                     <image>
+                        <Image url="@45955Antons_0922_LizClayman_00098.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="527.0" fitWidth="323.0" layoutX="473.0" layoutY="4.0">
+                     <image>
+                        <Image url="@40945Antons_West_Village_Wine_Service.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="237.0" fitWidth="369.0" layoutX="81.0" layoutY="277.0">
+                     <image>
+                        <Image url="@78910antons-11-5-196103.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="449.0" fitWidth="326.0" layoutX="472.0" layoutY="780.0">
+                     <image>
+                        <Image url="@86765Antons_0922_LizClayman_00009.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="218.0" fitWidth="325.0" layoutX="473.0" layoutY="544.0">
+                     <image>
+                        <Image url="@7789Antons_0922_LizClayman_00011.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="270.0" fitWidth="373.0" layoutX="84.0" layoutY="959.0">
+                     <image>
+                        <Image url="@2160Antons_0922_LizClayman_00118.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+      <AnchorPane fx:id="slider" layoutX="-2.0" prefHeight="700.0" prefWidth="260.0" style="-fx-background-color: brown;" stylesheets="@Style.css">
+         <children>
+            <Button fx:id="contactUsButton" alignment="BASELINE_LEFT" layoutX="21.0" layoutY="624.0" mnemonicParsing="false" onAction="#contactUsButtonClicked" prefHeight="47.0" prefWidth="191.0" style="-fx-background-color: fffff; -fx-border-color: white;" styleClass="sideBar" stylesheets="@../../../../java/com/example/softwareproject/Style.css" text="   Contact Us" textAlignment="CENTER" textFill="#f7f5f5">
+               <font>
+                  <Font name="Century" size="23.0" />
+               </font>
+            </Button>
+            <Button fx:id="ordersButton" alignment="BASELINE_LEFT" layoutX="1.0" layoutY="400.0" mnemonicParsing="false" onAction="#ordersButtonClicked" style="-fx-background-color: fffff;" styleClass="sideBar" text="Orders" textAlignment="CENTER" textFill="#f7f5f5">
+               <font>
+                  <Font name="Century" size="23.0" />
+               </font>
+            </Button>
+            <Button fx:id="locationsButton" alignment="BASELINE_LEFT" layoutX="1.0" layoutY="354.0" mnemonicParsing="false" onAction="#locationsButtonClicked" style="-fx-background-color: fffff;" styleClass="sideBar" text="Locations" textAlignment="CENTER" textFill="#f7f5f5">
+               <font>
+                  <Font name="Century" size="23.0" />
+               </font>
+            </Button>
+            <Button fx:id="aboutUsButton" alignment="BASELINE_LEFT" layoutX="1.0" layoutY="216.0" mnemonicParsing="false" onAction="#aboutUsButtonClicked" style="-fx-background-color: fffff;" styleClass="sideBar" text="About Us" textAlignment="CENTER" textFill="#f7f5f5">
+               <font>
+                  <Font name="Century" size="23.0" />
+               </font>
+            </Button>
+            <Text fill="#f2e9e9" layoutX="46.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Flavour">
+               <font>
+                  <Font name="Pristina" size="69.0" />
+               </font>
+            </Text>
+            <Line endX="131.80001831054688" endY="-7.62939453125E-6" layoutX="117.0" layoutY="125.0" startX="-100.0" stroke="#f4ebeb" />
+            <Line endX="135.60000610351562" layoutX="114.0" layoutY="190.0" startX="-100.0" stroke="#f2ebeb" />
+            <Text fill="#f4f1f1" layoutX="65.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Al-Farabi 77/7">
+               <font>
+                  <Font name="Rockwell" size="20.0" />
+               </font>
+            </Text>
+            <Button fx:id="aboutUsButton1" alignment="BASELINE_LEFT" layoutX="1.0" layoutY="262.0" mnemonicParsing="false" onAction="#aboutUsButtonClicked" style="-fx-background-color: fffff;" styleClass="sideBar" text="Italian Cuisine" textAlignment="CENTER" textFill="#f7f5f5">
+               <font>
+                  <Font name="Century" size="23.0" />
+               </font>
+            </Button>
+            <Button fx:id="locationsButton1" alignment="BASELINE_LEFT" layoutX="1.0" layoutY="308.0" mnemonicParsing="false" onAction="#locationsButtonClicked" style="-fx-background-color: fffff;" styleClass="sideBar" text="Chinese Cuisine" textAlignment="CENTER" textFill="#f7f5f5">
+               <font>
+                  <Font name="Century" size="23.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</Pane>

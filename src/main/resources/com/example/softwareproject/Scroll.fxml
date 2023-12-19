@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1200.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.softwareproject.ddd">
+   <content>
+      <Pane prefHeight="1200.0" prefWidth="900.0">
+         <children>
+            <Pane prefHeight="600.0" prefWidth="900.0">
+               <children>
+                  <ImageView fitHeight="531.0" fitWidth="882.0">
+                     <image>
+                        <Image url="@ItalianFood.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="276.0" fitWidth="1062.0" layoutX="-1.0" layoutY="134.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Top-10-Traditional-Foods-in-Italy(1).jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="137.0" fitWidth="129.0" layoutX="369.0" layoutY="152.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@7917408.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="90.0" fitWidth="121.0" layoutX="93.0" layoutY="172.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@6202325.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="90.0" fitWidth="96.0" layoutX="695.0" layoutY="176.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@9385958.png" />
+                     </image>
+                  </ImageView>
+                  <Text fill="#131111" layoutX="345.0" layoutY="296.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fresh, natural ingredients" textAlignment="CENTER" wrappingWidth="191.9054718017578">
+                     <font>
+                        <Font name="Constantia" size="33.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="39.0" layoutY="306.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Flavors speak for themselves" textAlignment="CENTER" wrappingWidth="198.7187957763672">
+                     <font>
+                        <Font name="Constantia" size="33.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="655.0" layoutY="296.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Authentic Italian recipes" textAlignment="CENTER" wrappingWidth="182.52130126953125">
+                     <font>
+                        <Font name="Constantia" size="33.0" />
+                     </font>
+                  </Text>
+                  <Pane layoutX="-9.0" layoutY="486.0" prefHeight="600.0" prefWidth="900.0">
+                     <children>
+                        <ImageView fitHeight="347.0" fitWidth="942.0" layoutX="-21.0" layoutY="41.0">
+                           <image>
+                              <Image url="@Снимок%20экрана%202023-12-10%20111453.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="308.0" fitWidth="919.0" layoutY="388.0">
+                           <image>
+                              <Image url="@Снимок%20экрана%202023-12-10%20111741.png" />
+                           </image>
+                        </ImageView>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="29.0" layoutX="254.0" layoutY="332.0" stroke="#ffffff00" strokeType="INSIDE" width="66.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="29.0" layoutX="247.0" layoutY="626.0" stroke="#ffffff00" strokeType="INSIDE" width="66.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="4000.0" fill="WHITE" height="29.0" layoutX="745.0" layoutY="628.0" stroke="#ffffff00" strokeType="INSIDE" width="66.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="29.0" layoutX="758.0" layoutY="328.0" stroke="#ffffff00" strokeType="INSIDE" width="66.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="29.0" layoutX="509.0" layoutY="328.0" stroke="#ffffff00" strokeType="INSIDE" width="66.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="29.0" layoutX="497.0" layoutY="626.0" stroke="#ffffff00" strokeType="INSIDE" width="66.0" />
+                        <Button fx:id="button2900" layoutX="255.0" layoutY="344.0" mnemonicParsing="false" onAction="#button2900Clicked" prefHeight="27.0" prefWidth="48.0" style="-fx-background-color: fffff; -fx-border-color: gray; -fx-border-radius: 15;" text="Add">
+                           <font>
+                              <Font name="Century" size="13.0" />
+                           </font>
+                        </Button>
+                        <Text layoutX="258.0" layoutY="339.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2900" wrappingWidth="42.69525146484375">
+                           <font>
+                              <Font name="Century" size="19.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="521.0" layoutY="338.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4200">
+                           <font>
+                              <Font name="Century" size="19.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="757.0" layoutY="339.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4600">
+                           <font>
+                              <Font name="Century" size="19.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="259.0" layoutY="638.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3600">
+                           <font>
+                              <Font name="Century" size="19.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="520.0" layoutY="637.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3900">
+                           <font>
+                              <Font size="19.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="756.0" layoutY="633.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4000">
+                           <font>
+                              <Font name="Century" size="19.0" />
+                           </font>
+                        </Text>
+                        <Button fx:id="button4200" layoutX="520.0" layoutY="344.0" mnemonicParsing="false" onAction="#button4200Clicked" style="-fx-background-color: fffff; -fx-border-color: gray; -fx-border-radius: 15;" text="Add">
+                           <font>
+                              <Font name="Century" size="13.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="button3900" layoutX="518.0" layoutY="641.0" mnemonicParsing="false" onAction="#button3900Clicked" style="-fx-background-color: fffff; -fx-border-color: gray; -fx-border-radius: 15;" text="Add">
+                           <font>
+                              <Font name="Century" size="13.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="button3600" layoutX="257.0" layoutY="643.0" mnemonicParsing="false" onAction="#button3600Clicked" style="-fx-background-color: fffff; -fx-border-color: gray; -fx-border-radius: 15;" text="Add">
+                           <font>
+                              <Font name="Century" size="13.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="button4600" layoutX="756.0" layoutY="344.0" mnemonicParsing="false" onAction="#button4600Clicked" style="-fx-background-color: fffff; -fx-border-color: gray; -fx-border-radius: 15;" text="Add">
+                           <font>
+                              <Font name="Century" size="13.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="button4000" layoutX="755.0" layoutY="641.0" mnemonicParsing="false" onAction="#button4000Clicked" style="-fx-background-color: fffff; -fx-border-color: gray; -fx-border-radius: 15;" text="Add">
+                           <font>
+                              <Font name="Century" size="13.0" />
+                           </font>
+                        </Button>
+                        <ImageView fitHeight="41.0" fitWidth="54.0" layoutX="845.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@666.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+   </content>
+</ScrollPane>

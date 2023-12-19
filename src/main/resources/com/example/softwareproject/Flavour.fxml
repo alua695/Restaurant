@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.softwareproject.Flavour">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="953.0" layoutX="-37.0">
+         <image>
+            <Image url="@food-4k-1pf6px6ryqfjtnyr(1).jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="italianButton" layoutX="196.0" layoutY="380.0" mnemonicParsing="false" onAction="#italianButtonClicked" prefHeight="43.0" prefWidth="237.0" style="-fx-border-radius: 15; -fx-background-radius: 15; -fx-background-color: fffff; -fx-border-color: EE7214;" text="Italian Cuisine" textFill="#fcfcfc">
+         <font>
+            <Font name="Century" size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="aboutUsButton" layoutX="533.0" layoutY="29.0" mnemonicParsing="false" onAction="#aboutUsButtonClicked" style="-fx-background-color: fffff;" text="About Us" textFill="#f7f3f3">
+         <font>
+            <Font name="Century" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="chineseButton" layoutX="471.0" layoutY="380.0" mnemonicParsing="false" onAction="#chineseButtonClicked" prefHeight="43.0" prefWidth="237.0" style="-fx-border-radius: 15; -fx-background-color: fffff; -fx-border-color: EE7214;" text="Chinese Cuisine" textFill="#efeaea">
+         <font>
+            <Font name="Century" size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="contactUsButton" layoutX="647.0" layoutY="29.0" mnemonicParsing="false" onAction="#contactUsButtonClicked" style="-fx-background-color: fffff;" text="Contact Us" textFill="#f7f7f7">
+         <font>
+            <Font name="Century" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="778.0" layoutY="29.0" mnemonicParsing="false" style="-fx-background-color: fffff;" text="Location" textFill="#fcf4f4">
+         <font>
+            <Font name="Century" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
